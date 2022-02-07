@@ -8,7 +8,7 @@ def cut(img):
     detector = dlib.get_frontal_face_detector()
 
     # 检测人脸
-    faces = detector(img, 1)
+    faces = detector(img)
 
     print("人脸数 / Faces in all:", len(faces))
 
